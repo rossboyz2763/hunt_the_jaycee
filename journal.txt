@@ -1,0 +1,6 @@
+27/05/2025 - Set up the repo for the Hunt the Jaycee project. 
+spent some time learning about the original 1937 game. 
+Created the cave class document and wrote the first attributes (name and description). 
+30/05/2025 - Write the main.py program to call the class and make the first cave object. Modified the attributes to set up name on initisalisation. 
+Wrote setter and getter metgods for each attribute. Started planning the layout of the caves. 
+02/06/2025 - Wrote a dictionary attribute to store the links to other cave objects. Wrote and tested a method to print the linked_caves dictionary to the terminal. 
