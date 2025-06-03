@@ -1,6 +1,10 @@
-27/05/2025 - Set up the repo for the Hunt the Jaycee project. 
-spent some time learning about the original 1937 game. 
-Created the cave class document and wrote the first attributes (name and description). 
-30/05/2025 - Write the main.py program to call the class and make the first cave object. Modified the attributes to set up name on initisalisation. 
-Wrote setter and getter metgods for each attribute. Started planning the layout of the caves. 
-02/06/2025 - Wrote a dictionary attribute to store the links to other cave objects. Wrote and tested a method to print the linked_caves dictionary to the terminal. 
+27/05/25 - set up the repo for hte hunt the wumpus project.
+spent some time learning about the original 1973 game.
+created tje cave c;ass dpciu,emt amd wrpte tje forst attronites (name and description)
+30/5/25 - write the main.py program to call the class and make the first cave object.
+modified the attributes to set up name on initialisation.
+wrote setter and getter methods for each attribute. started planning the layout of the cave
+02/6/25 - wrote the dictionary attirbute tp store the links to other cave objects.
+wrote and tested a method to print the linked_caves dictionary to the terminal
+3/06/25 - Added code to the main progra, tp allow the player to move between different cave objects. 
+Set up a new character class and test program. Created 'Ken - the 5ft 4 asian boy' on the test program and tested the conversation method.
