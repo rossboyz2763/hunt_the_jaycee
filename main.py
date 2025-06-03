@@ -1,3 +1,4 @@
+"""imports cave from Cave class"""
 from cave import Cave
 
 cavern = Cave("Cavern")
