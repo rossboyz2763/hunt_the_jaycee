@@ -24,5 +24,15 @@ class Cave:
         print(self.name + " linked caves:" + repr(self.linked_caves))
 
     def get_details(self):
+        print(self.name)
+        print("----------")
+        print(self.description)
         for direction, cave in self.linked_caves.items():
             print("The " + cave.get_name() + " is " + direction)
+    
+    def move(self, direction):
+        if direction in self.linked_caves:
+            return self.linked_caves[direction]
+        else:
+            print("You can't go that way, theres a wall dingus. ")
+            return self
