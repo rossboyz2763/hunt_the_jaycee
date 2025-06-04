@@ -8,3 +8,4 @@ wrote setter and getter methods for each attribute. started planning the layout 
 wrote and tested a method to print the linked_caves dictionary to the terminal
 3/06/25 - Added code to the main progra, tp allow the player to move between different cave objects. 
 Set up a new character class and test program. Created 'Ken - the 5ft 4 asian boy' on the test program and tested the conversation method.
+4/06/25 - Added the Enemy sub-class and allows the player to fight the enemy with what the weakness of the enemy is. 
