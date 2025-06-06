@@ -1,6 +1,6 @@
 27/05/25 - set up the repo for hte hunt the wumpus project.
 spent some time learning about the original 1973 game.
-created tje cave c;ass dpciu,emt amd wrpte tje forst attronites (name and description)
+created the cave class dpciu,emt amd write the first attributes (name and description)
 30/5/25 - write the main.py program to call the class and make the first cave object.
 modified the attributes to set up name on initialisation.
 wrote setter and getter methods for each attribute. started planning the layout of the cave
