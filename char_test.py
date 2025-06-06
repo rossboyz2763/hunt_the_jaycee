@@ -5,7 +5,7 @@ ryan = Enemy("Ryan", "A victim of his own success")
 ryan.describe()
 ryan.set_conversation(" rizzes you emma gyatt")
 ryan.talk()
-ryan.set_weakness("blacks")
+ryan.set_weakness("malenia")
 
 fight_with = input("What do you want to fight with? ")
 ryan.fight(fight_with)

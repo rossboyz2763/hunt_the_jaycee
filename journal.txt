@@ -9,3 +9,7 @@ wrote and tested a method to print the linked_caves dictionary to the terminal
 3/06/25 - Added code to the main progra, tp allow the player to move between different cave objects. 
 Set up a new character class and test program. Created 'Ken - the 5ft 4 asian boy' on the test program and tested the conversation method.
 4/06/25 - Added the Enemy sub-class and allows the player to fight the enemy with what the weakness of the enemy is. 
+6/6/25 - Finished testing the character in the char_test.py file. added ryan 
+object to main program and added it to the dungeon object. Reworked the main 
+loop to report if a character is in a cave. Added more code to the main loop to 
+accept different inputs (moving, talking and fighting) - still need to finish the code to manage fighting. 
