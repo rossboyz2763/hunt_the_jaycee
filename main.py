@@ -3,15 +3,15 @@ from cave import Cave
 from character import Enemy
 
 cavern = Cave("Cavern")
-cavern.set_description("A damp and dirty cave.")
+cavern.set_description("A large cave with a women named Malenia sitting on a throne, you help her up as she may be of use to you later on. ")
 grotto = Cave("Grotto")
 grotto.set_description("A small cave with ancient markings.")
 dungeon = Cave("Dungeon")
-dungeon.set_description("A large cave with a Half rotted women sitting on a throne, you help her up as she may be of use to you later on. ")
+dungeon.set_description("A dark cave with a figure standing in the corner. ")
 
 ryan = Enemy("Ryan", "A victim of his own success")
 ryan.set_conversation(" rizzes you emma gyatt")
-ryan.set_weakness("malenia")
+ryan.set_weakness("Malenia")
 dungeon.set_character(ryan)
 
 cavern.link_caves(dungeon, "South")
@@ -20,7 +20,8 @@ dungeon.link_caves(grotto, "West")
 grotto.link_caves(dungeon, "East")
 
 current_cave = cavern
-while True:
+dead = False
+while dead is False:
     print("\n")
     current_cave.get_details()
     inhabitated = current_cave.get_character()
@@ -40,5 +41,6 @@ while True:
                 current_cave.set_character(None)
             else:
                 print("Go home peasent, your weak.")
+                dead = True
         else:
             print("There is no one here to fight")

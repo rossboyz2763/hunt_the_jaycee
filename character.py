@@ -45,7 +45,7 @@ class Enemy(Character):
     def fight(self, combat_item):
         """lets them square up"""
         if combat_item == self.weakness:
-            print("You fend off " + self.name + " with " + combat_item)
+            print("You fend off " + self.name + " with " + combat_item + " Blade of Miquella")
             return True
         else:
             print(self.name + " Swallows you whole! You died. ")
