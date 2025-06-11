@@ -13,3 +13,4 @@ Set up a new character class and test program. Created 'Ken - the 5ft 4 asian bo
 object to main program and added it to the dungeon object. Reworked the main 
 loop to report if a character is in a cave. Added more code to the main loop to 
 accept different inputs (moving, talking and fighting) - still need to finish the code to manage fighting. 
+10/06/2025 - Added dying and finished the unmodified program. 
