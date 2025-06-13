@@ -50,3 +50,10 @@ class Enemy(Character):
         else:
             print(self.name + " Swallows you whole! You died. ")
             return False
+
+class Hero(Character):
+    """Defines attributes and methods for the Hero sub-class"""
+    def __init__(self, char_name, char_description):
+        super().__init__(char_name, char_description)
+        self.weakness = None
+
