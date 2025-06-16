@@ -1,10 +1,10 @@
 """imports cave from Cave class"""
 from cave import Cave
 from character import Enemy
-from character import Hero 
+from character import Hero
 
 cavern = Cave("Cavern")
-cavern.set_description("A large cave with a women named Malenia sitting on a throne, you help her up as she may be of use to you later on. ")
+cavern.set_description("A large cave with a guy named ken laying on the ground, you help him up may be of use to you later on. ")
 grotto = Cave("Grotto")
 grotto.set_description("A small cave with ancient markings.")
 dungeon = Cave("Dungeon")
@@ -14,15 +14,16 @@ cave_exit.set_description("A cave that leads to an exit. ")
 
 ryan = Enemy("Ryan", "A victim of his own success")
 ryan.set_conversation(" rizzes you emma gyatt")
-ryan.set_weakness("Malenia")
+ryan.set_weakness("Ken")
 dungeon.set_character(ryan)
 
-Radahn = Hero("Starscourge Radahn", "A Demigod that controls gravity. ")
-Radahn.set_conversation("something something idk ill decide later what to say")
-cave_exit.set_character(Radahn)
+Jaycee = Enemy("Jaycee", "Blade Of Macdonalds. ")
+Jaycee.set_conversation("I eat big macs every day")
+Jaycee.set_weakness("ken")
+cave_exit.set_character(Jaycee)
 
-Malenia = Enemy("Malenia", "Blade Of Miquella")
-Malenia.set_conversation("something something idk ill decide later what to say")
+Ken = Hero("Ken Quisquino", "A guy with drumsticks. ")
+Ken.set_conversation("im going to eat you. ")
 
 cavern.link_caves(dungeon, "South")
 dungeon.link_caves(cavern, "North")

@@ -14,3 +14,5 @@ object to main program and added it to the dungeon object. Reworked the main
 loop to report if a character is in a cave. Added more code to the main loop to 
 accept different inputs (moving, talking and fighting) - still need to finish the code to manage fighting. 
 10/06/2025 - Added dying and finished the unmodified program. 
+13/06/2025 - Added hero sub-class
+16/06/2025 - Added more areas like the Cave exit and added another Enemy

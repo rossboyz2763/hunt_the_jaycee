@@ -1,11 +1,9 @@
 """this is a test for the character"""
-from character import Enemy
+from character import Hero
 
-ryan = Enemy("Ryan", "A victim of his own success")
-ryan.describe()
-ryan.set_conversation(" rizzes you emma gyatt")
-ryan.talk()
-ryan.set_weakness("malenia")
-
-fight_with = input("What do you want to fight with? ")
-ryan.fight(fight_with)
+Jaycee = Hero("Jaycee", "Blade Of Macdonalds. ")
+Jaycee.describe()
+Jaycee.set_conversation("I eat big macs every day")
+Jaycee.talk()
+Jaycee.fight()
+Jaycee.set_weakness("ken")
