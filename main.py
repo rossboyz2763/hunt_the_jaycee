@@ -3,36 +3,36 @@ from cave import Cave
 from character import Enemy
 from character import Hero
 
-cavern = Cave("Cavern")
-cavern.set_description("A large cave with a guy named ken laying on the ground, you help him up may be of use to you later on. ")
-grotto = Cave("Grotto")
-grotto.set_description("A small cave with ancient markings.")
-dungeon = Cave("Dungeon")
-dungeon.set_description("A dark cave with a figure standing in the corner. ")
-cave_exit = Cave("Cave Exit")
-cave_exit.set_description("A cave that leads to an exit. ")
+road = Cave("Road")
+road.set_description("A large road with a guy named ken laying on the sidewalk, you help him up may be of use to you later on. ")
+buss_stop = Cave("Buss Stop ")
+buss_stop .set_description("A small cave with ancient markings.")
+car_park = Cave("Car Park")
+car_park.set_description("A dark cave with a figure standing in the corner. ")
+main_gate = Cave("Main Gate")
+main_gate.set_description("A cave that leads to an exit. ")
 
 ryan = Enemy("Ryan", "A victim of his own success")
 ryan.set_conversation(" rizzes you emma gyatt")
 ryan.set_weakness("Ken")
-dungeon.set_character(ryan)
+car_park.set_character(ryan)
 
 Jaycee = Enemy("Jaycee", "Blade Of Macdonalds. ")
 Jaycee.set_conversation("I eat big macs every day")
 Jaycee.set_weakness("ken")
-cave_exit.set_character(Jaycee)
+main_gate.set_character(Jaycee)
 
 Ken = Hero("Ken Quisquino", "A guy with drumsticks. ")
 Ken.set_conversation("im going to eat you. ")
 
-cavern.link_caves(dungeon, "South")
-dungeon.link_caves(cavern, "North")
-dungeon.link_caves(grotto, "West")
-dungeon.link_caves(cave_exit, "East")
-grotto.link_caves(dungeon, "East")
-cave_exit.link_caves(dungeon, "West")
+road.link_caves(car_park, "South")
+car_park.link_caves(road, "North")
+car_park.link_caves(buss_stop, "West")
+car_park.link_caves(main_gate, "East")
+buss_stop.link_caves(car_park, "East")
+main_gate.link_caves(car_park, "West")
 
-current_cave = cavern
+current_cave = road
 dead = False
 while dead is False:
     print("\n")
