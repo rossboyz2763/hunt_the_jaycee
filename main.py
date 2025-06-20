@@ -27,8 +27,7 @@ ramp_mid = Cave("Middle of ramp ")
 ramp_mid.set_description("The middle of the ramp. ")
 ramp_top = Cave("Top of ramp")
 ramp_top.set_description("the Top of the ramp. ")
-
-
+Cr1 = Cave("")
 
 ryan = Enemy("Ryan", "A victim of his own success")
 ryan.set_conversation(" rizzes you emma gyatt")
@@ -38,7 +37,7 @@ car_park.set_character(ryan)
 Jaycee = Enemy("Jaycee", "Blade Of Macdonalds. ")
 Jaycee.set_conversation("I eat big macs every day")
 Jaycee.set_weakness("ken")
-.set_character(Jaycee)
+Cr1.set_character(Jaycee)
 
 Ken = Hero("Ken Quisquino", "A guy with drumsticks. ")
 Ken.set_conversation("im going to eat you. ")
