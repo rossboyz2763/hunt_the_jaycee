@@ -17,3 +17,4 @@ accept different inputs (moving, talking and fighting) - still need to finish th
 13/06/2025 - Added hero sub-class
 16/06/2025 - Added more areas like the Cave exit and added another Enemy
 17/06/2025 - Changed the map to the start of the school
+20/06/2025 - Did half the area (caves)
