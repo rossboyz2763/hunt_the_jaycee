@@ -26,8 +26,10 @@ ramp_bot.set_description("The bottom of the ramp. ")
 ramp_mid = Cave("Middle of ramp ")
 ramp_mid.set_description("The middle of the ramp. ")
 ramp_top = Cave("Top of ramp")
-ramp_top.set_description("the Top of the ramp. ")
+ramp_top.set_description("The Top of the ramp. ")
 Cr1 = Cave("")
+Cr1.set_description("Computers go brrrr")
+
 
 ryan = Enemy("Ryan", "A victim of his own success")
 ryan.set_conversation(" rizzes you emma gyatt")
